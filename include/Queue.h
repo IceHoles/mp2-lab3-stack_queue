@@ -4,7 +4,6 @@ template <typename T>
 class Queue
 {
     T* mem;
-    // mem: ..., begin, ..., ..., end, ...
     size_t sz;
     size_t begin;
     size_t end;
